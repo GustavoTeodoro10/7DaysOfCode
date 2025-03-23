@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor-primaria: #000000;
-    --cor-secundaria: #f6f6f6;
-    --cor-terciaria: #22d4fd;
+    --cor-primaria: #1B2021;
+    --cor-secundaria: #EEF1BD;
+    --cor-terciaria: #AD2831;
     --font-primaria:"Krona One", sans-serif;
     --font-segundaria:"Montserrat", sans-serif;
 }
@@ -91,7 +91,7 @@ body {
     display: inline-block;
     padding: .75rem 1.25rem;
     border-radius: 10rem;
-    color: #fff;
+    color: var(--cor-secundaria);
     text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: .15rem;
@@ -99,7 +99,7 @@ body {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    background-color: #0cf;
+    background-color: var(--cor-terciaria);
 }
 
 
@@ -113,7 +113,7 @@ body {
 
 .rodape{
     background-color: var(--cor-terciaria);
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     padding: 5px;
     text-align: center;
     font-family: var(--font-segundaria);
