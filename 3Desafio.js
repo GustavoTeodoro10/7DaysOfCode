@@ -29,6 +29,5 @@ function desafio3(){
         aux = prompt('Tem mais alguma tecnologia que você gostaria de aprender? Digite SIM')
         console.log(aux);
     }
-
     alert('FIM')
 }

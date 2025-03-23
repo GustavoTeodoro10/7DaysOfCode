@@ -26,4 +26,6 @@ function desafio2(){
     if (resposta ==2){
             alert("Ahh que pena... Já tentou aprender outras lingagens?")
     }
-}}
+    }
+    alert('FIM')
+}
