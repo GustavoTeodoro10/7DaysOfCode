@@ -1,4 +1,4 @@
-function desafio1(){   
+function desafio1(){
 
   let numeroUm = 1
   let stringUm = '1'
