@@ -3,18 +3,54 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Desafio</title>
 </head>
 
 <body>
-    
+    <header> </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">#7DaysOfCode - Lógica JS</h1>
+            <p class="apresentacao__conteudo__texto">Estou pronto para o desafio! 🚀</p>
+            <p class="apresentacao__conteudo__texto">Participar do #7DaysOfCode é uma oportunidade incrível de aprofundar meus <strong class="titulo-destaque">conhecimentos em Lógica de Programação</strong> e aplicar na prática tudo o que aprendi. Nos próximos 7 dias, meu foco será total para conquistar <strong class="titulo-destaque">novos aprendizados, superar desafios e</strong>, ao final, adicionar um projeto sólido ao meu portfólio. Vamos juntos nessa jornada de evolução!</p>
+        </section>
+
+
+    </main>
+    <section>
+        <div class="apresentacao__links">
+            <h2 class="apresentacao__links__subtitulo">Acesse os desafios:</h2>
+
+            <button class="apresentacao__links__navegacao" id="1Desafio">Desafio 1</button>
+            <button class="apresentacao__links__navegacao" id="2Desafio">Desafio 2</button>
+            <button class="apresentacao__links__navegacao" id="3Desafio">Desafio 3</button>
+        </div>
+    </section>
+    <script src="1Desafio.js" defer></script> 
     <script src="2Desafio.js" defer></script>
+    <script src="3Desafio.js" defer></script>
+
+    <script>
+        
+        document.getElementById("1Desafio").addEventListener("click", function() {
+            desafio1(); // Função do desafio 1
+        });
+
+        document.getElementById("2Desafio").addEventListener("click", function() {
+            desafio2(); // Função do desafio 2
+        });
+
+        document.getElementById("3Desafio").addEventListener("click", function() {
+            desafio3(); // Função do desafio 3
+        });
+    </script>
+     <footer class="rodape">
+        <p>Copyright @ 2025 – Gustavo Teodoro  |  
+            Todos os direitos reservados</p>
+    </footer>
 </body>
 
 </html>
